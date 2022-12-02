@@ -1,3 +1,5 @@
+#### Desafio proposto pela DevMedia.
+
 ## Aplicação de salário x inflação
 
 ![Tela da aplicacao salario x inflacao](/salario_inflacao/img/img_salario_inflacao.png)
