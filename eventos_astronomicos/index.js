@@ -1,4 +1,4 @@
-import {chuva_de_meteoros} from './dados/chuvas-de-meteoros';
+import chuva_de_meteoros from './dados/chuvas-de-meteoros.js';
 
 console.log('Chuva de Meteoros');
 
