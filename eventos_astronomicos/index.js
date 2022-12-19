@@ -1,6 +1,7 @@
 import chuva_de_meteoros from './dados/chuvas-de-meteoros.js';
+import verificaChuvaDiaAtual from './funcoes/chuvaDiaAtual.js';
 
 console.log('Chuva de Meteoros');
 
-chuva_de_meteoros.forEach(chuva => console.log(chuva))
+verificaChuvaDiaAtual(chuva_de_meteoros);
 
