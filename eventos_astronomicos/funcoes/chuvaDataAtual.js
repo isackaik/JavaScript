@@ -1,9 +1,11 @@
-/*function verificaChuvaDiaAtual (chuva, dataAtual){
+function verificaChuvaDiaAtual(chuvas, dataAtual) {
 
-    if(dataAtual >= chuva.dataInicio && dataAtual <= chuva.dataFim){
-        return chuva;
+    for (let chuva of chuvas) {
+        let dataInicio = new Date(chuva.dataInicio);
+        let dataFim = new Date(chuva.dataFim);
+
+        return (dataAtual >= dataInicio && dataAtual <= dataFim);
     }
-
 }
 
-export default verificaChuvaDiaAtual;*/
+export default verificaChuvaDiaAtual;
