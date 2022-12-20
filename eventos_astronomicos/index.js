@@ -1,7 +1,12 @@
-import chuva_de_meteoros from './dados/chuvas-de-meteoros.js';
-import verificaChuvaDiaAtual from './funcoes/chuvaDiaAtual.js';
+import chuva_de_meteoros from './dados/chuva-de-meteoros.js';
+import filtraChuva from './funcoes/filtraChuvaPorDia.js';
+import imprimirChuvas from './funcoes/imprimeChuvas.js';
 
 console.log('Chuva de Meteoros');
 
-verificaChuvaDiaAtual(chuva_de_meteoros);
+filtraChuva(chuva_de_meteoros);
+imprimirChuvas(chuva_de_meteoros);
+
+
+
 
