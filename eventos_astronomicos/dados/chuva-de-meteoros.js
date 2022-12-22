@@ -11,7 +11,7 @@ let chuva_de_meteoros = [
     { nome: 'Delta Aquáridas do Sul',     dataInicio: '07/12', dataFim: '08/19', pico: 'Jul 28', ascencao: 340,  declinacao: -16,  velocidade:	41, thz: '16',       intensidade: 'Forte com meteoros lentos e rasto comprido'},
     { nome: 'Piscis Austrinídeos',	      dataInicio: '07/15', dataFim: '08/10', pico: 'Jul 28', ascencao: 341,  declinacao: -30,  velocidade:	35, thz: '5',        intensidade: 'Média'},
     { nome: 'Perseidas',	              dataInicio: '07/17', dataFim: '08/24', pico: 'Ago 12', ascencao: 48,   declinacao:  58,  velocidade:	59, thz: '100',      intensidade: 'Forte e muito rápidas'},
-    { nome: 'Capa Cignídeos',             dataInicio: '08/03', dataFim: '08/25', pico: 'Ago 17', ascencao: 286,  declinacao:  59,  velocidade:	25, thz: '3',        intensidade: 'Fraca com velocidade:s médias e brilhantes'},
+    { nome: 'Capa Cignídeos',             dataInicio: '08/03', dataFim: '08/25', pico: 'Ago 17', ascencao: 286,  declinacao:  59,  velocidade:	25, thz: '3',        intensidade: 'Fraca com velocidades médias e brilhantes'},
     { nome: 'Alfa Aurigídeos',	          dataInicio: '08/25', dataFim: '09/28', pico: 'Set 1',  ascencao: 91,   declinacao:  39,  velocidade:	66, thz: '6',        intensidade: 'Média com meteoros muito rápidos e persistentes'},
     { nome: 'Perseidas de Setembro',      dataInicio: '09/05', dataFim: '10/10', pico: 'Set 8',  ascencao: 48,   declinacao:  40,  velocidade:	64, thz: '5',        intensidade: 'Média com meteoros rápidos e persistentes'},
     { nome: 'Táuridas do Sul',            dataInicio: '09/10', dataFim: '11/20', pico: 'Out 10', ascencao: 32,   declinacao:  9,   velocidade:	27, thz: '5',        intensidade: 'Fraca'},
@@ -25,11 +25,11 @@ let chuva_de_meteoros = [
     { nome: 'Alfa Monocerotídeos',        dataInicio: '11/15', dataFim: '11/25', pico: 'Nov 21', ascencao: 117,  declinacao:  1,   velocidade:	65, thz: 'Variável', intensidade: 'Irregular'},
     { nome: 'Monocerotídeos',             dataInicio: '11/27', dataFim: '12/17', pico: 'Dez 8',  ascencao: 100,  declinacao:  8,   velocidade:	42, thz: '2',        intensidade: 'Fraca'},
     { nome: 'Fenícidas',	              dataInicio: '11/28', dataFim: '12/09', pico: 'Dez 6',  ascencao: 18,   declinacao: -53,  velocidade:	18, thz: 'Variável', intensidade: 'Irregular'},
-    { nome: 'Quadrântidas',	              dataInicio: '11/28', dataFim: '01/12', pico: 'Jan 4',  ascencao: 230,  declinacao:  49,  velocidade:	41, thz: '120',      intensidade: 'Forte com velocidade:s médias'},
+    { nome: 'Quadrântidas',	              dataInicio: '11/28', dataFim: '01/12', pico: 'Jan 4',  ascencao: 230,  declinacao:  49,  velocidade:	41, thz: '120',      intensidade: 'Forte com velocidades médias'},
     { nome: 'Pupidas-Velidas',	          dataInicio: '12/02', dataFim: '12/16', pico: 'Dez 12', ascencao: 123,  declinacao: -45,  velocidade:	40, thz: '10',       intensidade: 'Média'},
     { nome: 'Sigma Hidrídeos',            dataInicio: '12/03', dataFim: '12/15', pico: 'Dez 12', ascencao: 127,  declinacao:  2,   velocidade:	58, thz: '3',        intensidade: 'Fraca'},
     { nome: 'Leo Minorídeos de Dezembro', dataInicio: '12/05', dataFim: '02/04', pico: 'Dez 19', ascencao: 161,  declinacao:  30,  velocidade:	64, thz: '5',        intensidade: 'Média'},
-    { nome: 'Gemínidas',	              dataInicio: '12/07', dataFim: '12/17', pico: 'Dez 14', ascencao: 112,  declinacao:  33,  velocidade:	35, thz: '120',      intensidade: 'Forte com velocidade:s médias, meteoros brancos e numerosos'},
+    { nome: 'Gemínidas',	              dataInicio: '12/07', dataFim: '12/17', pico: 'Dez 14', ascencao: 112,  declinacao:  33,  velocidade:	35, thz: '120',      intensidade: 'Forte com velocidades médias, meteoros brancos e numerosos'},
     { nome: 'Coma Berenicídeos',          dataInicio: '12/12', dataFim: '01/23', pico: 'Dez 20', ascencao: 175,  declinacao:  18,  velocidade:	65, thz: '3',        intensidade: 'Fraca'},
     { nome: 'Úrsidas',                    dataInicio: '12/17', dataFim: '12/26', pico: 'Dez 22', ascencao: 217,  declinacao:  76,  velocidade:	33, thz: '10',       intensidade: 'Média'}
     

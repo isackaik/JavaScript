@@ -1,17 +1,25 @@
-import verificaChuvaDiaAtual from './chuvaDataAtual.js';
-import formatarDataChuva from './formataDataChuva.js';
-import verificarDatas from './verificaDataRange.js';
+import formatarDataChuva from './funcoesDeFormatacao/formataDataChuva.js';
 
+function filtrarChuvaPorDia(chuvas = [], dataAtual){
 
-function filtrarChuvaPorDia(chuvas, dataAtual){
+    let dataInicio;
+    let dataFim;
+    let chuvasToday = [];
 
-    chuvas.forEach(chuva => {
-        chuva.dataInicio = formatarDataChuva(chuva.dataInicio);
-        chuva.dataFim = formatarDataChuva(chuva.dataFim);
-        verificarDatas(chuva.dataInicio, chuva.dataFim);
-    })
+    for (let chuva of chuvas){
+        dataInicio = new Date(formatarDataChuva(chuva.dataInicio));
+        dataFim = new Date(formatarDataChuva(chuva.dataFim));
 
-    return chuvas;
+        if (dataInicio.getMonth() > dataFim.getMonth()){
+            dataFim.setFullYear(dataFim.getFullYear() + 1);
+        }
+
+        if (dataAtual >= dataInicio && dataAtual <= dataFim){
+            chuvasToday.push(chuva);
+        }
+    }
+
+    return chuvasToday;
 
 }
 
